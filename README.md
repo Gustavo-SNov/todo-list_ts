@@ -1,3 +1,44 @@
+# 📝 Todo App - Next.js + TypeScript
+
+Este projeto é uma aplicação de lista de tarefas (Todo App) criada com **Next.js** e **TypeScript**, utilizando o paradigma de desenvolvimento baseado em componentes com a **arquitetura Atomic Design**.
+
+## 🔧 Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/) — Framework React full-stack
+- [TypeScript](https://www.typescriptlang.org/) — Superset do JavaScript com tipagem estática
+- [Tailwind CSS](https://tailwindcss.com/) — Framework CSS utilitário
+- [ESLint + Prettier] — Padronização de código
+- [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) — Arquitetura de componentes
+
+---
+
+## 🧬 Arquitetura do Projeto - Atomic Design
+```bash
+/todo-app
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── atoms/         # Elementos básicos (botões, inputs, ícones, textos)
+│   │   ├── molecules/     # Combinações simples de átomos (ex: campo de busca)
+│   │   ├── organisms/     # Componentes mais complexos (ex: formulário de tarefa)
+│   │   ├── templates/     # Estrutura das páginas (layout com header/footer)
+│   │   └── pages/         # Páginas específicas compostas por templates
+│   ├── hooks/             # Custom hooks
+│   ├── context/           # Context API (ex: estado global de tarefas)
+│   ├── services/          # API clients, serviços de backend
+│   ├── types/             # Tipagens globais TypeScript
+│   ├── utils/             # Funções utilitárias
+│   ├── styles/            # Estilos globais, temas, Tailwind config
+│   └── app/               # Arquivos do Next.js App Router (caso use `app/`)
+├── .gitignore
+├── tsconfig.json
+├── tailwind.config.ts
+├── next.config.js
+├── package.json
+└── README.md
+```
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
