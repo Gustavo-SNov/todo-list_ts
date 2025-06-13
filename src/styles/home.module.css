@@ -1,0 +1,133 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+
+.inputArea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputArea input {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.inputArea button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputArea button:hover {
+    background-color: #26764a;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.task-item button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background-color: #c9302c;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+.inputArea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputArea input {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.inputArea button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputArea button:hover {
+    background-color: #26764a;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.task-item button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background-color: #c9302c;
+}

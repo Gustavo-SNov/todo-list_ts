@@ -16,6 +16,18 @@
 /*  overflow-x: hidden;*/
 /*}*/
 
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
 /*body {*/
 /*  color: var(--foreground);*/
 /*  background: var(--background);*/
